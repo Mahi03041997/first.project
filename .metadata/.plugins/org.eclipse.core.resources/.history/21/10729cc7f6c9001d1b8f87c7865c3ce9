@@ -1,0 +1,16 @@
+package oop.concepts;
+
+public class SerializationExample {
+	
+	
+	public static void main(String[] args) {
+	
+		Employee emp = new Employee(101,"Sriram");
+		System.out.println(emp);
+		
+				
+	}
+	
+	
+
+}

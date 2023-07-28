@@ -1,0 +1,8 @@
+package testing;
+
+public class NewTest {
+public static void main(String[] args) {
+	String cars[];
+	cars = "Volvo", "BMW", "Ford"
+}
+}

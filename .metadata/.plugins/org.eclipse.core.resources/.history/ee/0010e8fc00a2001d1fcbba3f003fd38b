@@ -1,0 +1,18 @@
+package testing;
+
+public class Casting {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int a = 65;
+		char b = 65;
+		float c = a;
+		System.out.println(c);
+		System.out.println("______________________________");
+		int d = 400;
+		int e = 200 + d;
+		int f = 150 + e;
+		System.out.println(f);
+	}
+
+}

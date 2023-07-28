@@ -1,0 +1,21 @@
+package oop.concepts;
+
+import java.io.FileInputStream;
+import java.io.ObjectInputStream;
+
+public class DeSerializationExample {
+	
+	public static void main(String[] args) {
+		
+		Employee emp = null;
+		
+		try {
+			
+			FileInputStream fis = new FileInputStream("C:\\Users\\AA\\OneDrive\\Desktop\\Ser\\Employee.txt");
+			ObjectInputStream ois = new ObjectInputStream(fis);
+			ois.readObject();
+		}
+		
+	}
+
+}

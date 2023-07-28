@@ -1,0 +1,13 @@
+package oop.concepts;
+
+public class Ree {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+StringBuilder sb = new StringBuilder("mahi");
+sb.reverse();
+String name = sb.toString();
+System.out.println(name);
+	}
+
+}

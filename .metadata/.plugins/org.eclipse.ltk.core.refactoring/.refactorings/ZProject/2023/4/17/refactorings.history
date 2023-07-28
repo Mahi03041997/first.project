@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;ZProject/src/main/webapp/Registration.jsp&apos; to &apos;Register.jsp&apos;" description="Rename resource &apos;Registration.jsp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/webapp/Registration.jsp" name="Register.jsp" stamp="1682682306298" updateReferences="true"/>
+</session>

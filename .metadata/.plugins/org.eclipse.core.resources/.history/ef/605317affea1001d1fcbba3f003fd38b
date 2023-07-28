@@ -1,0 +1,16 @@
+package testing;
+
+public class StringValues {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+String a = "Solanki";
+String b = "Mandher";
+String c = "Singh";
+String name = a+b+c;
+
+System.out.println("The Name Of the Boy Is : "+name);
+System.out.println(a+b+c);
+	}
+
+}

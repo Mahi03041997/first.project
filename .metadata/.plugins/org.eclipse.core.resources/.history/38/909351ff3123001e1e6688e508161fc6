@@ -1,0 +1,14 @@
+package javapractice;
+
+public class StringImmutable {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String str = "Mandher";
+		str.concat("Singh");
+		System.out.println(str);
+// while we concat string with other String a new object is created inside the String constant pool area. 
+		
+	}
+
+}

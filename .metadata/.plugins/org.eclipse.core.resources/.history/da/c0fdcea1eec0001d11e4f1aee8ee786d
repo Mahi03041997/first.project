@@ -1,0 +1,19 @@
+package pattern;
+
+public class ArmS {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+int a = 153,temp,arm =0,original;
+original = a;
+while(a>0) {
+	temp = a%10;
+	arm = (temp*temp*temp)+arm;
+	a = a/10;
+}
+if (a== arm) {
+System.err.println("armstrong");
+}
+	}
+
+}

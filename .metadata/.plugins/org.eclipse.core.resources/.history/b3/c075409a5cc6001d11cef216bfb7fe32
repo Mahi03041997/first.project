@@ -1,0 +1,24 @@
+package oop.concepts;
+
+public class Cont {
+	String name;
+	int roll;
+	float marks;
+	Cont(String name,int roll,float marks){
+		this.name = name;
+		this.roll = roll;
+		this.marks = marks;
+		
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+Cont mahi = new Cont("mahi", 22, 65);
+Cont niki =new Cont("Nikilesh", 12, 72);
+Cont mahesh = new Cont("Mahesh", 8, 77);
+System.out.println(mahi);
+System.out.println(niki);
+System.out.println(mahesh);
+	}
+
+}

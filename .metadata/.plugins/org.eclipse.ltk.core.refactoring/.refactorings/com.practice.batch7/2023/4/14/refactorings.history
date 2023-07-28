@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;methodEx.Book.java&apos; to &apos;Studenttt.java&apos;&#x0D;&#x0A;- Original project: &apos;com.practice.batch7&apos;&#x0D;&#x0A;- Original element: &apos;methodEx.Book.java&apos;&#x0D;&#x0A;- Renamed element: &apos;methodEx.Studenttt.java&apos;" description="Rename compilation unit &apos;Book.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;methodEx{Book.java" name="Studenttt.java" references="false" stamp="1680501213892" version="1.0"/>
+</session>

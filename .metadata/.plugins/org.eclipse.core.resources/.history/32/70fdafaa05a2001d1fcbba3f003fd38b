@@ -1,0 +1,15 @@
+package testing;
+
+public class Lowercase_Uppercase {
+
+	public static void main(String[] args) {
+		/* TODO Auto-generated method stub
+String a = "nikilesh";
+System.out.println(a.toUpperCase());
+System.out.println(a.toLowerCase());
+System.out.println("______________________________");*/
+String b = "The Name Of The 'Person' Is Rahul!";
+System.out.println(b.indent(5));
+	}
+
+}

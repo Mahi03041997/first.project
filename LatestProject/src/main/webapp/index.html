@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Registration page</title>
+<style >
+.container{
+background: pink;
+width: 700px;
+height: 900px;
+margin-left: 300px
+}
+label{
+margin-left: 15px;
+Color : blue;
+font-size: 20px;
+}
+body{
+color: green;
+height: auto;
+width: auto;
+}
+img{
+height: 120px;
+width: 120px;
+}
+</style>
+</head>
+<body >
+
+<div class = "container">
+<br>
+<form action="Registration" method = "post">
+<center> 
+<img  src="C:\Users\AA\Downloads\img\mother theresa.jpg"width ="100" height = 100>
+<h1>MOTHER THERESA TECHNO SCHOOL</h1> 
+<h2>Registration Form For Admission </h2>
+<h4>Personal Details</h4>
+</center>
+<label>First Name :</label>
+<input type = "text" placeholder = "First Name" name = "firstname"/><br><br>
+<label>Last Name : </label>
+<input type = "text" placeholder = "Last Name" name = "lastname"/> <br><br>
+<label>Father Name:</label>
+<input type = "text" placeholder = "Father Name" name = "fathername"/><br><br>
+<label>Mother Name :</label>
+<input type ="text" placeholder = "mother name" name = "mothername"/><br><br>
+<label>Gender :</label>
+<input type = "radio" name = "gender" value = "male"/>male
+<input type = "radio" name = "gender" value = "female"/>female<br> <br>
+<label>Date Of Birth :</label>
+<input type = "date" name = "dob"  ><br><br>
+<label>Class For Applying :</label>
+<select name = "educlass" id = "class">
+<option value = "Select"> Select</option>
+<option value = "10th class"> 10th class</option> 
+<option value = "9th class"> 9th class </option>
+<option value = "8th class"> 8th class </option>
+<option value = "7th class" > 7th class</option>
+<option value = "6th class"> 6th class </option>
+<option value = "5th class" >5th class </option>
+ <option value = "4th class"> 4th class </option>
+ <option value = "3rd class"> 3rd class </option>
+ <option value = "2nd class"> 2nd class </option>
+ <option value = "1st class"> 1st class </option>  
+</select> <br><br>
+<label>Phone Number :</label>
+<input type = "number" name = "number"/><br><br>
+<label>Email:</label>
+<input type ="text" name = "email"/><br><br><br>
+<label>Payment Option :</label>
+<input type = "radio" name = "PaymentOption" value = "Net Banking"/ > Net Banking
+<input type = "radio" name = "PaymentOption" value = "UPI"/ > UPI
+<input type = "radio" name = "PaymentOption" value = "DEBIT CARD"/ > DEBIT CARD
+<input type = "radio" name = "PaymentOption" value = "CREDIT CARD"/ > CREDIT CARD<br><br>
+<center>
+<input type ="submit" value = "SUBMIT" /> 
+<input type ="reset" value = "CLEAR"/>
+</center>
+
+</form>
+</div>
+
+</body>
+</html>
+

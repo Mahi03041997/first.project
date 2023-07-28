@@ -1,0 +1,15 @@
+
+public class Addition {
+	public static void main(String[] args) {
+		
+	
+	int pravven=32;
+	int  krishna= 34;
+	int mahi= pravven+krishna;
+	 System.out.println( 
+			 "" +mahi);
+	}
+	
+			
+
+}

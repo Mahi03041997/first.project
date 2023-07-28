@@ -1,0 +1,47 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.container{
+background-color : Silver;
+width: 400px;
+height: 400px;
+margin-left: 40%;
+margin-top: 100px;
+}
+label{
+color: blue;
+margin-left: 30px;
+}
+body{
+background-image: url("data:image/jpeg;base64,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");
+}
+</style>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body >
+
+<div class = "container">
+<form action="Login" method = "post">
+<center>
+<h1 style = "color: RoyalBlue; font-family: Brush Script MT
+, cursive; ">WELCOME</h1>
+<h1 style = "color: RoyalBlue;"> CAREER BRIDGE IT SERVICES</h1>
+<h2 style = "color: SlateBlue;">LOGIN</h2></center>
+<label>User Name  : </label>
+<input type ="text" placeholder = " enter username " name = "username" style = "margin-left: 25px;"/><br><br>
+<label>Password :</label>
+<input type = "text" placeholder = "enter password" name = "password" style = "margin-left: 35px;"/><br><br>
+<a href = "forgotpassword.jsp"style = "margin-left: 50px;">forgot password ?</a><br><br>
+<input type = "submit" value = "Login" style ="color: Red; margin-left: 70px; font-size:20px;"/ >
+<input type = "reset" vlaue = " Clear All" name= "reset" style ="color:Navy; margin-left: 70px;font-size: 20px;"/><br><br>
+<label style = "margin-left: 30px;">New to login page </label><a href = "Register.jsp" style = "margin-left: 30px;" >Register</a>
+
+
+</form>
+</div>
+</body>
+</html>

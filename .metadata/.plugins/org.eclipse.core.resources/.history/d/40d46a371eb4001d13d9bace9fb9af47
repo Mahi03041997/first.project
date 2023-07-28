@@ -1,0 +1,17 @@
+package projectPractice;
+
+import java.util.Scanner;
+
+public class questions extends login {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("login id : ");
+		String id = sc.nextLine();
+		System.out.println("Password : ");
+		String pass = sc.nextLine();
+		questions q = new questions();
+		q.Check(id, pass);
+		sc.close();
+	}
+
+}

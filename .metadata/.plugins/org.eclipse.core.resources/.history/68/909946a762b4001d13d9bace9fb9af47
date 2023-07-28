@@ -1,0 +1,18 @@
+package projectPractice;
+
+public class login {
+	public void Check(String id,String pass)
+	{
+		if(id =="Mahi_1997") {
+			System.out.println("login successful ");
+		}
+			else
+			System.out.println("invalid");
+		if(pass=="Mahi@1997")
+		{
+			System.out.println("login successful ");
+		}
+		else
+			System.out.println("invalid");
+	}
+}

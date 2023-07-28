@@ -1,0 +1,27 @@
+package pattern;
+
+public class Parameter {
+	String name;
+	int age;
+	String gender;
+
+	public Parameter(String name,int age,String gender){
+		this.name = name;
+		this.age = age;
+		this.gender = gender;
+	}
+	
+	public String customer(String name) {
+		
+		return name;
+		
+	}
+
+
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
