@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                           http://www.springframework.org/schema/beans/spring-beans.xsd
+                           http://www.springframework.org/schema/context
+                           http://www.springframework.org/schema/context/spring-context.xsd">
+<bean class = "usingautowiring.Address" name = "address">
+<property name="village" value = "Ayyagaripeta"/>
+<property name="town" value = "Sathupally"/>
+<property name="state" value = "Telangana"/>
+</bean>
+<bean class = "usingautowiring.Qulification" name = "qulification">
+<property name="course" value = "graducation"/>
+</bean>
+<bean class = "usingautowiring.Emp" name = "emp" autowire="byType">
+
+</bean>
+ </beans>

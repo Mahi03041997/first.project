@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://www.springframework.org/schema/beans
+ https://www.springframework.org/schema/beans/spring-beans.xsd">
+ <bean class = "com.spring.ref.Address" name = "address">
+ <property name = "h_no" value = "6-75"/>
+ <property name = "street" value = "Bonthu Aslesha Street"/>
+ <property name = "village" value = "Ayyagaripeta"/>
+ <property name = "town" value = "Sathupally"/>
+ <property name = "district" value = "Khammam"/>
+ </bean>
+ <bean class = "com.spring.ref.Employee " name = "employee">
+ <property name = "id" value = "1" />
+ <property name = "name" value = "Mahi Rajput" />
+ <property name = "address" ref = "address"/>
+ 
+ </bean>
+</beans>

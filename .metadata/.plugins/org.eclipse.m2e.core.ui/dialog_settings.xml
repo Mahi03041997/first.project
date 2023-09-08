@@ -14,7 +14,7 @@
 		</list>
 	</section>
 	<section name="MavenProjectWizardArchetypePage">
-		<item key="catalog" value="All Catalogs"/>
+		<item key="catalog" value="internal"/>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
 			<item value="[artifactId]-TRUNK"/>
@@ -26,10 +26,22 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.parking.system"/>
+			<item value="com.parking_system.parking_system"/>
+			<item value="com.newgroup.spring.com.spring"/>
+			<item value="com.springcore"/>
 		</list>
 		<list key="groupId">
+			<item value="com.parking.system"/>
+			<item value="com.parking-system"/>
+			<item value="com.newgroup.spring"/>
+			<item value="com.springcore"/>
 		</list>
 		<list key="artifactId">
+			<item value="parking.system"/>
+			<item value="parking-system"/>
+			<item value="com.spring"/>
+			<item value="springcore"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -45,24 +57,13 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
-			<item value="springapp"/>
-			<item value="mav"/>
-			<item value="com.teaching"/>
-			<item value="learning"/>
-			<item value="com.newlearning"/>
-			<item value="com.learning"/>
+			<item value="com.parking.system"/>
 		</list>
 		<list key="name">
-			<item value="coremaven"/>
-			<item value="newmavin"/>
+			<item value="parking system"/>
 		</list>
 		<list key="artifactId">
-			<item value="com.practice"/>
-			<item value="ma"/>
-			<item value="webpage"/>
-			<item value="latestlogin"/>
-			<item value="loginn"/>
-			<item value="login"/>
+			<item value="parking.system"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -79,5 +80,7 @@
 	<section name="org.eclipse.m2e.core.pom.overview">
 	</section>
 	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.wizards.CustomArchetypeDialog">
 	</section>
 </section>

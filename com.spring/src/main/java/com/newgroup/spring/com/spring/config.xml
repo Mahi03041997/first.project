@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://www.springframework.org/schema/beans
+ https://www.springframework.org/schema/beans/spring-beans.xsd">
+ <bean class = "com.newgroup.spring.com.spring.Employee" name = "employee">
+ <property name = "id" value = "225" />
+ <property name = "name" value = "Sejal Rajput"/>
+ <property name = "adress">
+ <list>
+ <value>6-75, bonthu aslesha street, ayyagaripeta, sathupaly, khammam</value>
+ </list>
+ </property>
+ <property name = "phoneNumber" value = "9110771054"/>
+ <property name = "course">
+ <map>
+ <entry key = "JAVA" value = "3 months"/>
+ <entry key = ".NET" value = "3 Months"/>
+ </map>
+ </property>
+ </bean>
+</beans>
