@@ -2,14 +2,22 @@
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:p="http://www.springframework.org/schema/p"
        xsi:schemaLocation="http://www.springframework.org/schema/beans
                            http://www.springframework.org/schema/beans/spring-beans.xsd
                            http://www.springframework.org/schema/context
                            http://www.springframework.org/schema/context/spring-context.xsd">
+   <context:annotation-config />
 <bean class = "autowiring.annotation.Address" name = "address">
 <property name="village" value = "Sathupally" />
 <property name="state" value = "Telangana" />
 </bean>
+
+<bean class = "autowiring.annotation.Address" name = "address1">
+<property name="village" value = "benguluru" />
+<property name="state" value = "Karnataka" />
+</bean>
+
 <bean class = "autowiring.annotation.ContactDetails" name = "contactdetails">
 <property name="phoneNumber" value = "911077" />
 <property name="email" value = "mandhersingh9876@gmail.com" />

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:util="http://www.springframework.org/schema/util"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+ https://www.springframework.org/schema/beans/spring-beans.xsd
+ http://www.springframework.org/schema/context
+ https://www.springframework.org/schema/context/spring-context.xsd
+ http://www.springframework.org/schema/util
+ https://www.springframework.org/schema/util/spring-util.xsd
+ ">
+<context:annotation-config />
+<context:component-scan base-package="com.springcore.scope" />
+<util:set set-class="java.util.HashSet" id = "studentName">
+<value>Solanki Mandher Singh</value>
+<value>Solanki Raju Singh</value>
+<value>Solanki Eswar Singh</value>
+</util:set>
+
+<util:list list-class="java.util.ArrayList" id = "educationqulification">
+<value>Bsc(BZC)</value>
+<value>10th class</value>
+<value>M.B.B.S</value>
+</util:list>
+<util:map map-class="java.util.HashMap" id = "course">
+<entry key = "JAVA" value = "3"/>
+<entry key = "Spring" value = "1"/>
+<entry key = "Hybernate" value = "1"/>
+
+</util:map>
+
+<util:list list-class="java.util.ArrayList" id = "phn">
+<value>9110771054</value>
+<value>9494596765</value>
+<value>9652807618</value>
+</util:list>
+
+<util:set set-class="java.util.TreeSet" id = "email">
+<value>mandhersingh9876@gmail.com</value>
+<value>solankirajusingh@gmail.com</value>
+<value>eswarsingh600@gmail.com</value>
+</util:set>
+
+</beans>

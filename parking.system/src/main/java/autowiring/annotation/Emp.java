@@ -1,12 +1,20 @@
 package autowiring.annotation;
 
+import javax.annotation.PostConstruct;
+import javax.annotation.PreDestroy;
+
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 
 public class Emp {
-	@Autowired
+	
 private String name;
+@Autowired
+@Qualifier("address1")
 private Address address;
+@Autowired
 private ContactDetails contactdetails;
+
 public Emp() {
 	super();
 	// TODO Auto-generated constructor stub
@@ -41,6 +49,13 @@ public void setContactdetails(ContactDetails contactdetails) {
 public String toString() {
 	return "Emp [name=" + name + "," + address + ", " + contactdetails + "]";
 }
-
+@PostConstruct
+public void init() {
+	System.out.println("initr method");
+}
+@PreDestroy
+public void destroy() {
+	System.out.println("destroy method");
+}
 
 }

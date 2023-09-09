@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:util="http://www.springframework.org/schema/util"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+                           http://www.springframework.org/schema/beans/spring-beans.xsd
+                           http://www.springframework.org/schema/context
+                           http://www.springframework.org/schema/context/spring-context.xsd
+                           http://www.springframework.org/schema/util
+                           http://www.springframework.org/schema/util/spring-util.xsd">
+                           
+	<context:annotation-config />
+	<util:list list-class="java.util.ArrayList" id = "empName">
+	<value>Mahi Rajput</value>
+	<value>Eswar Singh</value>
+	<value>Raju Singh</value>
+	</util:list>
+	<util:map map-class="java.util.HashMap" id = "mapping">
+	<entry key = "Mandher Singh Solanki" value = "solankimandhder@gmail.com" />
+	<entry key= "Eswar Singh Solanki" value = "eswarsingh600@gmail.com" />
+	<entry key = "Raju Singh Solanki" value = "solankirajusingh@gmail.com"/>
+	</util:map>
+<bean class = "com.list.standlone.Emp" name = "emp1">
+<property name="name" ref = "empName"/>
+</bean>
+<bean class = "com.list.standlone.Contact" name = "contact">
+<property name="phoneNumber" value = "9110771054" />
+<property name="email" ref = "mapping" />
+</bean>
+</beans>
